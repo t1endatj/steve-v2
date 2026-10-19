@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.steve.v2.core.PlanParserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-18T12:57:28" hostname="LAPTOP-FIDAE3KN" time="0.026">
+  <properties/>
+  <testcase name="rejectsPartialPlanWithUnknownAction()" classname="com.steve.v2.core.PlanParserTest" time="0.015"/>
+  <testcase name="acceptsMarkdownWrappedJson()" classname="com.steve.v2.core.PlanParserTest" time="0.001"/>
+  <testcase name="rejectsOldInconsistentParameterNames()" classname="com.steve.v2.core.PlanParserTest" time="0.001"/>
+  <testcase name="rejectsFractionalOrNegativeQuantity()" classname="com.steve.v2.core.PlanParserTest" time="0.007"/>
+  <testcase name="validMinePreservesQuantity()" classname="com.steve.v2.core.PlanParserTest" time="0.0"/>
+  <testcase name="rejectsMissingCoordinatesRatherThanDefaultingToOrigin()" classname="com.steve.v2.core.PlanParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

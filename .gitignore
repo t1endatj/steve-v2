@@ -1,0 +1,14 @@
+.gradle/
+.backups/
+**/build/
+**/run/
+**/run-*/
+.idea/
+*.iml
+.vscode/
+*.log
+local.properties
+.env
+.env.*
+!*.example
+config/*-common.toml

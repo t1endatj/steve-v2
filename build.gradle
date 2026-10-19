@@ -1,0 +1,21 @@
+plugins { id 'base' }
+
+allprojects {
+    group = 'com.steve.v2'
+    version = '2.0.0-alpha.2'
+    repositories { mavenCentral() }
+}
+subprojects {
+    plugins.withType(JavaPlugin).configureEach {
+        java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+        tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+        dependencies {
+            testImplementation platform('org.junit:junit-bom:5.11.4')
+            testImplementation 'org.junit.jupiter:junit-jupiter'
+            testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+        }
+        tasks.withType(Test).configureEach { useJUnitPlatform() }
+    }
+}
+tasks.named('check') { dependsOn ':agent-core:check', ':forge:check' }
+tasks.named('assemble') { dependsOn ':agent-core:assemble', ':forge:assemble' }

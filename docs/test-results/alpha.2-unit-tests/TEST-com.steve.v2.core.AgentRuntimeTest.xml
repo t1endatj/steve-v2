@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.steve.v2.core.AgentRuntimeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-18T12:57:28" hostname="LAPTOP-FIDAE3KN" time="0.025">
+  <properties/>
+  <testcase name="completionClearsGoalAndReturnsIdle()" classname="com.steve.v2.core.AgentRuntimeTest" time="0.016"/>
+  <testcase name="failedActionStopsDependentTasks()" classname="com.steve.v2.core.AgentRuntimeTest" time="0.002"/>
+  <testcase name="stopWhilePlanningNeverStartsLateResult()" classname="com.steve.v2.core.AgentRuntimeTest" time="0.002"/>
+  <testcase name="replacementCommandDiscardsOldQueue()" classname="com.steve.v2.core.AgentRuntimeTest" time="0.001"/>
+  <testcase name="pausedPlanningWaitsUntilResume()" classname="com.steve.v2.core.AgentRuntimeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

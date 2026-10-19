@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.steve.v2.core.AgentSelectionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-18T12:57:28" hostname="LAPTOP-FIDAE3KN" time="0.003">
+  <properties/>
+  <testcase name="preservesSelectedSteveWhenMoreThanOneIsVisible()" classname="com.steve.v2.core.AgentSelectionTest" time="0.001"/>
+  <testcase name="selectsActualSteveInsteadOfOldBobDefault()" classname="com.steve.v2.core.AgentSelectionTest" time="0.001"/>
+  <testcase name="ambiguousSelectionDoesNotSilentlyPickAnotherPlayerAgent()" classname="com.steve.v2.core.AgentSelectionTest" time="0.001"/>
+  <testcase name="keepsExplicitNameWhenEntityIsOutsideClientRenderDistance()" classname="com.steve.v2.core.AgentSelectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

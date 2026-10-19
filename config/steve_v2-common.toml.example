@@ -1,0 +1,21 @@
+[ai]
+provider = "groq"
+maxTokens = 2048
+temperature = 0.3
+
+[openai]
+apiKey = ""
+model = ""
+
+[groq]
+apiKey = ""
+model = ""
+
+[gemini]
+apiKey = ""
+model = ""
+
+[behavior]
+maxStevesPerOwner = 10
+assistantMode = true
+followOwnerWhenIdle = true
