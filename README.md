@@ -70,7 +70,7 @@ Sau lần khởi chạy đầu, sửa `config/steve_v2-common.toml` ở phía se
 /steve tell Bob đi theo tôi
 ```
 
-Hỗ trợ OpenAI/Groq qua chat completions và Gemini qua generateContent. Model/API key để trống có chủ ý: chọn model tương thích với endpoint và tài khoản của bạn. Hiện chưa kiểm chứng cuộc gọi AI thật bằng API key. Những model có yêu cầu tham số riêng có thể cần adapter bổ sung.
+Hỗ trợ OpenAI/Groq qua chat completions và Gemini qua generateContent. Những model có yêu cầu tham số riêng có thể cần adapter bổ sung.
 
 ## Cấu trúc
 
