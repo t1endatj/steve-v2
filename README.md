@@ -6,7 +6,7 @@ Dự án có core Java độc lập và adapter Minecraft Forge. Fabric sẽ đ�
 
 ## Nguồn core và phần kế thừa
 
-Steve V2 phát triển từ ý tưởng core và một phần code của [Steve AI — YuvDwi/Steve](https://github.com/YuvDwi/Steve), tham chiếu commit `a9475973332be040bb5095d6edf4cd3dc69c344e`. Các action và thuật toán đào, di chuyển, đặt block, chiến đấu, nhận biết môi trường và sinh công trình được kế thừa rồi chỉnh sửa. Runtime, task schema, HTTP planner và hàng đợi xây được tổ chức lại trong `agent-core`, tách khỏi adapter Forge. Xem [ghi nhận nguồn](docs/ATTRIBUTION.md).
+Steve V2 phát triển từ ý tưởng core và một phần code của [Steve AI — YuvDwi/Steve](https://github.com/YuvDwi/Steve). Các action và thuật toán đào, di chuyển, đặt block, chiến đấu, nhận biết môi trường và sinh công trình được kế thừa rồi chỉnh sửa. Runtime, task schema, HTTP planner và hàng đợi xây được tổ chức lại trong `agent-core`, tách khỏi adapter Forge. Xem [ghi nhận nguồn](docs/ATTRIBUTION.md).
 
 ## Các thay đổi và lỗi đã sửa
 
